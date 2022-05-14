@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: salmon;
+    width: 1100px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: rgb(34, 193, 195);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.input-number {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px   ;
+}
+
+.input-number p {
+    font-size: 30px;
+}
+
+.input-number h1 {
+    font-size: 40px;
+}
+
+.length {
+    padding: 20px;
+    text-align: center;
+}
+
+.length p {
+    color: gray;
+    padding: 10px;
+}
+
+.volume {
+    padding: 20px;
+    text-align: center;
+}
+
+.volume p {
+    color: gray;
+    padding-top: 10px;
+}
+
+.Mass {
+    padding: 20px;
+    text-align: center;
+}
+
+.Mass p {
+    color: gray;
+    padding-top: 10px;
+}
